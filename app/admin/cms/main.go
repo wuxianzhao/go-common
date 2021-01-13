@@ -1,12 +1,11 @@
 package main
 
 import(
-	"fmt"
-	_"github.com/go-sql-driver/mysql"
+	"log"
+	"go-common/library/net/http"
 )
 
 func main() {
-	fmt.Printf("hello go!")
-
-	fmt.Printf("import mysql")
+	log.Printf("cms run....")
+	http.Serve()
 }
